@@ -1,0 +1,9 @@
+.main-text-container {
+    height: 180px;
+    text-align: center;
+}
+
+.main-text {
+    margin-top: 180px;
+    font-size: 96px;
+}

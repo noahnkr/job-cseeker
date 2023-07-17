@@ -1,0 +1,20 @@
+.edit-search-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.job-listing-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.edit-icon {
+    text-decoration: none;
+    margin-top: 3px;
+    color: #000;
+}
+
+.edit-icon:hover {
+    color: rgb(30, 131, 255);
+    cursor: pointer;
+}

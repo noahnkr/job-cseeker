@@ -1,0 +1,68 @@
+.apply-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.apply-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.apply-form {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 40%;
+    padding: 15px;
+}
+
+.apply-form * {
+    margin: 3px;
+    padding: 2px;
+}
+
+.apply-form input[type="submit"] {
+    border: 1px solid rgb(30, 131, 255);
+    background-color: rgb(30, 131, 255);
+    color: #fff;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 6px 8px 6px 8px;
+}
+
+.apply-form input[type="submit"]:hover {
+    background-color: #fff;
+    color: rgb(30, 131, 255);
+    cursor: pointer;
+}
+
+.applicant-information-input, .applicant-address-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.applicant-dob-input {
+    width: 100%;
+}
+
+.applicant-dob-input * {
+    width: 30%;
+}
+
+
+.city-state-zip {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.city-state-zip * {
+    width: 30.5%;
+}
+
+
+.applicant-address-input input[name="street"] {
+    width: 96%;
+}
+

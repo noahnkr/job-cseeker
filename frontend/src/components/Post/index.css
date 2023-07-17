@@ -1,0 +1,47 @@
+.post-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.job-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.job-form {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 40%;
+    padding: 15px;
+}
+
+.job-form * {
+    margin: 3px;
+    padding: 2px;
+}
+
+.job-form input[type="submit"] {
+    border: 1px solid rgb(30, 131, 255);
+    background-color: rgb(30, 131, 255);
+    color: #fff;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 6px 8px 6px 8px;
+}
+
+.job-form input[type="submit"]:hover {
+    background-color: #fff;
+    color: rgb(30, 131, 255);
+    cursor: pointer;
+}
+
+.basic-information-input, .location-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.type-salary {
+    margin-right: 10px;
+}

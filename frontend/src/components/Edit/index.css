@@ -1,0 +1,16 @@
+.job-form-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.delete-icon {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.delete-icon:hover {
+    color: rgb(30, 131, 255);
+    cursor: pointer;
+}
